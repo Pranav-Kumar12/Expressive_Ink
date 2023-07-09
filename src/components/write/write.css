@@ -1,0 +1,68 @@
+.chooseFileButton{
+    display: none;
+}
+
+.writePostImg{
+    /* display:none; */
+    margin-left: 100px; 
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.write{
+    margin-top: 40px;
+}
+.writeForm{
+    position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.writeIcon{
+    width: 25px;
+    height:25px;
+    border-radius:50%;
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    margin: 20px;
+    width: 70vw;
+}
+
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+}
+
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color:white;
+    font-size: 18px;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
