@@ -1,0 +1,67 @@
+.login {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  position: relative;
+}
+
+.loginInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.loginPageTitle{
+    font-size: 40px;
+}
+.loginInfo label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    align-self: center;
+    font-weight: 600;
+}
+
+.loginInfo input{
+    font-size: 18px;
+    background-color: rgb(218, 239, 240);
+    padding: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submitLoginInfo{
+    background-color:rgb(171, 127, 18) ;
+    margin-top: 25px;
+    border: none;
+    width: 50%;
+    align-self: center;
+    padding: 7px 15px;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+
+.loginPageRegister{
+    /*Position this on the top of the page*/
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 12px;
+    padding: 7px 14px;
+    cursor: pointer;
+    background-color: rgb(6, 98, 6);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
