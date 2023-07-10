@@ -1,0 +1,71 @@
+.register {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://images.pexels.com/photos/7958050/pexels-photo-7958050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  position: relative;
+}
+
+.registerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.registerPageTitle {
+  font-size: 40px;
+}
+.registerInfo label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-family: "Varela Round", sans-serif;
+  align-self: center;
+  font-weight: 600;
+}
+
+.registerInfo input {
+  font-size: 18px;
+  background-color: rgb(228, 239, 239);
+  padding: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.submitRegisterInfo {
+  background-color: rgb(6, 98, 6);
+  margin-top: 25px;
+  border: none;
+  width: 50%;
+  align-self: center;
+  padding: 7px 15px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+.registerPageLogin {
+  /*Position this on the top of the page*/
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 12px;
+  padding: 7px 25px;
+  cursor: pointer;
+  background-color: rgb(171, 127, 18) ;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}

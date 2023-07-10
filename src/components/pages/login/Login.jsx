@@ -5,12 +5,6 @@ export default function Login() {
     <div className="login">
       <span className="loginPageTitle">Login</span>
       <form className="loginInfo">
-        <label>Username</label>
-        <input
-          type="text"
-          className="userNameInfo"
-          placeholder="pranav12"
-        />
         <label>Email</label>
         <input
           type="email"
