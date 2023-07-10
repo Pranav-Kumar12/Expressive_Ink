@@ -1,0 +1,102 @@
+.profileSettings {
+  display: flex;
+  font-family: 'Lora', serif;
+}
+
+.settingsWrapper {
+  flex: 3;
+  padding: 20px;
+}
+
+.accountUpdateDelete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accountUpdate{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(155, 102, 220);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
+
+.accountDelete{
+    font-size: 16px;
+    color: rgb(224, 60, 60);
+    cursor: pointer;
+}
+
+.profileSettingsProfileImg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.profilePicOrig{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
+
+.profileSettingsForm{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.newFileInput{
+    display: none;
+}
+
+.profileSettingsIcon{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    color: rgb(232, 230, 230);
+    background-color: rgb(181, 181, 66);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profileSettingsForm label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.profileSettingsForm input{
+    color: #777;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 10px 0;
+}
+
+.profileSettingsForm input:focus{
+    outline: none;
+}
+
+.profileSettingsSubmit{
+    width: 160px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(31, 135, 100);
+    padding: 8px;
+    border-radius: 8px;
+    color:rgb(245, 245, 245);
+    cursor: pointer;
+    margin-top: 25px;
+}
